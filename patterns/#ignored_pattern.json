@@ -1,0 +1,16 @@
+{
+  "error": "Ignored pattern",
+  "recommandation": "This should be visible on the comparison summary",
+  "critical": true,
+  "subpatterns": [
+    {
+      "meaning": "The weather is clear",
+      "checks": [
+        {
+          "source": "weather.*.main",
+          "expected": "Clear"
+        }
+      ]
+    }
+  ]
+}

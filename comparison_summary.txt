@@ -1,0 +1,16 @@
+Loaded patterns: ['__wrong_coordinates.json', 'unclear_weather.json']
+_______________________
+
+Error: Correct coordinates
+Recommandation: Don't touch the coordinates
+Additional informations: The location is good
+Critical: False
+_______________________
+
+Error: Unclear weather
+Recommandation: Do somethin'
+Additional informations: The weather is clear
+Critical: False
+_______________________
+
+Done

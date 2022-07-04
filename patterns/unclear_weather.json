@@ -1,0 +1,70 @@
+{
+  "error": "Unclear weather",
+  "recommandation": "Do somethin'",
+  "critical": false,
+  "subpatterns": [
+    {
+      "meaning": "The weather is clear",
+      "checks": [
+        {
+          "source": "weather.*.main",
+          "expected": "Clear"
+        }
+      ]
+    },
+    {
+      "meaning": "The sky is cloudy",
+      "checks": [
+        {
+          "source": "weather.*.main",
+          "expected": "Clouds"
+        }
+      ]
+    },
+    {
+      "meaning": "Ongoing thunderstorm",
+      "checks": [
+        {
+          "source": "weather.*.main",
+          "expected": "Thunderstorm"
+        }
+      ]
+    },
+    {
+      "meaning": "Ongoing drizzle",
+      "checks": [
+        {
+          "source": "weather.*.main",
+          "expected": "Drizzle"
+        }
+      ]
+    },
+    {
+      "meaning": "Ongoing rain",
+      "checks": [
+        {
+          "source": "weather.*.main",
+          "expected": "Rain"
+        }
+      ]
+    },
+    {
+      "meaning": "Ongoing snow",
+      "checks": [
+        {
+          "source": "weather.*.main",
+          "expected": "Snow"
+        }
+      ]
+    },
+    {
+      "meaning": "Ongoing rain",
+      "checks": [
+        {
+          "source": "weather.*.main",
+          "expected": "Rain"
+        }
+      ]
+    }
+  ]
+}

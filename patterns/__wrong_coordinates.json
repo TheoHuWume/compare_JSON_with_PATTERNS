@@ -1,0 +1,20 @@
+{
+  "error": "Correct coordinates",
+  "recommandation": "Don't touch the coordinates",
+  "critical": false,
+  "subpatterns": [
+    {
+      "meaning": "The location is good",
+      "checks": [
+        {
+          "source": "coord.lat",
+          "expected": 40.42
+        },
+        {
+          "source": "coord.lon",
+          "expected": -74
+        }
+      ]
+    }
+  ]
+}
